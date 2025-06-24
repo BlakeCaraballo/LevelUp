@@ -1,38 +1,37 @@
-# sv
+📱 Solo Leveling-Inspired Self-Improvement App
+This is a gamified self-help app inspired by Solo Leveling and RPG game mechanics. Built with SvelteKit, it transforms your personal growth into an adventure. Track your stats, complete quests, unlock skills, and level up — just like you're the main character in your own game.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+🧩 Core Features
+💼 Profile System – Choose a class (e.g. Mage, Warrior, Rogue) and view your avatar, personal stats, and XP bar.
 
-## Creating a project
+📋 Quests – Complete daily tasks like reading or exercising to earn XP in different stat categories (Intelligence, Strength, Endurance, Perception).
 
-If you're seeing this, you've probably already done this step. Congrats!
+📦 Inventory – Manage items with quantity, rarity, damage/durability, and modal previews.
 
-```bash
-# create a new project in the current directory
-npx sv create
+🌲 Skills Page – View a class-based skill tree with visual connections and unlockable nodes.
 
-# create a new project in my-app
-npx sv create my-app
-```
+🎮 Game-style Login Screen – Immersive login animation with typewriter effect and terminal interface.
 
-## Developing
+📊 XP & Leveling System – Track your main XP bar and individual stat progression. Each level unlocks new, harder quests.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+🛠 Tech Stack
+SvelteKit – Reactive, modern front-end framework.
 
-```bash
-npm run dev
+Bootstrap – Styling components and grid layouts.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Custom CSS Animations – Glitch effects, glowing particles, typewriter terminal, and more.
 
-## Building
+No backend yet – Uses mock data and client-side logic for prototyping.
 
-To create a production version of your app:
+🧙 Future Plans
+Battle Arena with simulated combat
 
-```bash
-npm run build
-```
+Vendor Shop to buy items with earned currency
 
-You can preview the production build with `npm run preview`.
+Persistent user data (localStorage or Firebase)
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Achievements & titles
+
+Daily quest reset timer
+
+Sound effects and music
