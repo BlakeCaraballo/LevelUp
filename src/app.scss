@@ -1,0 +1,33 @@
+// 1. Override Bootstrap variables BEFORE importing
+$body-bg: #0d0d1a;
+$body-color: #e6e6e6;
+
+$primary: #00ffff; // electric cyan
+$secondary: #431379; // dark purple (like indigo or eggplant)
+
+$success: #00c853;
+$danger: #ff1744;
+$warning: #ff9100;
+$info: #18ffff;
+
+body {
+  // background-color: #0d0d1a; // Dark background for the whole app
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+}
+:global(html),
+:global(body) {
+  font-family: "Orbitron", sans-serif;
+  position: relative; /* Ensure body creates a stacking context */
+  overflow: hidden; /* Optional: prevent scrolling if particles drift outside */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+html,
+body {
+  font-family: "Orbitron", sans-serif !important;
+  // background-color: $body-bg; // your dark bg color
+  color: $body-color; // your text color
+}
